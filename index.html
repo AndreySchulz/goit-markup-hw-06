@@ -326,58 +326,6 @@
                 </ul>
             </div>
         </section>
-        <div class="back-drop is-hidden" data-modal>
-            <div class="modal">
-                <h2 class="modal-heading">Оставьте свои данные, мы вам перезвоним</h2>
-                <button type="button" class="modal-close" data-modal-close>
-                    <svg width="10" height="10">
-                        <use href="images/sprite.svg#icon-close"></use>
-                    </svg>
-                </button>
-                <form class="modal-form">
-                    <ul class="item">
-                        <li class="form-box">
-                            <label class="form-name" for="name">Имя</label>
-                            <input class="form-input" type="text" name="name" id="name" required>
-                            <svg class="form-svg" width="18" height="18">
-                                <use href="images/sprite.svg#icon-person"></use>
-                            </svg>
-                        </li>
-                        <li class="form-box">
-                            <label class="form-name" for="tel">Телефон</label>
-                            <input class="form-input" type="tel" name="tel" id="tel" required>
-                            <svg class="form-svg" width="18" height="18">
-                                <use href="images/sprite.svg#icon-phone"></use>
-                            </svg>
-                        </li>
-                        <li class="form-box">
-                            <label class="form-name" for="mail">Почта</label>
-                            <input class="form-input" type="email" name="mail" id="tel" required>
-                            <svg class="form-svg" width="18" height="18">
-                                <use href="images/sprite.svg#icon-email"></use>
-                            </svg>
-                        </li>
-                        <li class="form-box">
-                            <label class="form-name" for="text">Комментарий</label>
-                            <textarea class="form-input box" name="text" id="text"
-                                placeholder="Введите текст"></textarea>
-                        </li>
-                    </ul>
-                    <div class="form-check">
-                        <input class="display form-checkbox" type="checkbox" name="" id="licence">
-                        <label class="check-name" for="licence" required>
-                            <svg class="check-svg" width="11" height="8">
-                                <use href="images/sprite.svg#icon-check"></use>
-                            </svg>Соглашаюсь с рассылкой и принимаю <a href="">Условия
-                                договора</a>
-                        </label>
-
-                        <button class="modal-button" type="submit">Отправить</button>
-                    </div>
-
-                </form>
-            </div>
-        </div>
     </main>
     <footer>
         <div class="container">
@@ -449,6 +397,57 @@
             </div>
         </div>
     </footer>
+    <div class="back-drop is-hidden" data-modal>
+        <div class="modal">
+            <h2 class="modal-heading">Оставьте свои данные, мы вам перезвоним</h2>
+            <button type="button" class="modal-close" data-modal-close>
+                <svg width="10" height="10">
+                    <use href="images/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+            <form class="modal-form">
+                <ul class="item">
+                    <li class="form-box">
+                        <label class="form-name" for="name">Имя</label>
+                        <input class="form-input" type="text" name="name" id="name" required>
+                        <svg class="form-svg" width="18" height="18">
+                            <use href="images/sprite.svg#icon-person"></use>
+                        </svg>
+                    </li>
+                    <li class="form-box">
+                        <label class="form-name" for="tel">Телефон</label>
+                        <input class="form-input" type="tel" name="tel" id="tel" required>
+                        <svg class="form-svg" width="18" height="18">
+                            <use href="images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </li>
+                    <li class="form-box">
+                        <label class="form-name" for="mail">Почта</label>
+                        <input class="form-input" type="email" name="mail" id="tel" required>
+                        <svg class="form-svg" width="18" height="18">
+                            <use href="images/sprite.svg#icon-email"></use>
+                        </svg>
+                    </li>
+                    <li class="form-box">
+                        <label class="form-name" for="text">Комментарий</label>
+                        <textarea class="form-input box" name="text" id="text" placeholder="Введите текст"></textarea>
+                    </li>
+                </ul>
+                <div class="form-check">
+                    <input class="display form-checkbox" type="checkbox" name="" id="licence">
+                    <label class="check-name" for="licence" required>
+                        <svg class="check-svg" width="11" height="8">
+                            <use href="images/sprite.svg#icon-check"></use>
+                        </svg>Соглашаюсь с рассылкой и принимаю <a href="">Условия
+                            договора</a>
+                    </label>
+
+                    <button class="modal-button" type="submit">Отправить</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 
